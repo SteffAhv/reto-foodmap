@@ -1,0 +1,54 @@
+/* Reset General */
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*Estilos Reutilizables*/
+
+.bckg {
+	background: linear-gradient(rgb(0,0,0) 65%, rgb(216, 127, 10));
+}
+.vh100 {
+	height:100vh;
+}
+
+/*Estilos generales*/
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+	color: #fff;
+}
+.h1 {
+	color:black;
+}
+.flex-container {
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	padding:2em;
+	height: 100vh;
+}
+.flyed-text {
+	list-style: none;
+}
+.flyed-text li  {
+	display: inline-block;
+	font-size: 2em;
+	margin-right:0.5em;
+	color: rgb(224, 138, 39);
+	opacity:1;
+	transition:2.5s ease;
+}
+.hide-text li {
+	opacity:0;
+}
+.hide-text > li:nth-child(1) { transform: translateY(-30%);}
+.hide-text > li:nth-child(2) { transform: translateY(+30%);}
+.hide-text > li:nth-child(3) { transform: translateY(+60%);}
+.hide-text > li:nth-child(4) { transform: translateY(+30%);}
+.hide-text > li:nth-child(5) { transform: translateY(-30%);}
+.hide-text > li:nth-child(6) { transform: translateY(-60%);}
+.hide-text > li:nth-child(7) { transform: translateY(+90%);}

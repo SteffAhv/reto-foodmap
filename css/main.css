@@ -4,6 +4,7 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+	text-align: center;
 }
 
 /*Estilos Reutilizables*/
@@ -13,6 +14,9 @@
 }
 .vh100 {
 	height:100vh;
+}
+.inline {
+	display:inline-block;
 }
 
 /*Estilos generales*/
@@ -35,7 +39,6 @@ body {
 	list-style: none;
 }
 .flyed-text li  {
-	display: inline-block;
 	font-size: 2em;
 	margin-right:0.5em;
 	color: rgb(224, 138, 39);
@@ -52,3 +55,27 @@ body {
 .hide-text > li:nth-child(5) { transform: translateY(-30%);}
 .hide-text > li:nth-child(6) { transform: translateY(-60%);}
 .hide-text > li:nth-child(7) { transform: translateY(+90%);}
+ 
+/* Estilos vista home */
+.header {
+	color: rgb(224, 138, 39);
+}
+.header > nav {
+	display:flex;
+	justify-content: center;
+	padding:0.8em 0;
+}
+.header > nav > h2 {
+	vertical-align: top;
+	margin:0;
+	padding-right: 1em;
+}
+#container-map {
+	height:40vh;
+	width:70%;
+	background-color: aqua;
+}
+.spacing {
+	opacity: 0;
+	margin:0.5em 0;
+}

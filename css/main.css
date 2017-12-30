@@ -11,12 +11,18 @@
 
 .bckg {
 	background: linear-gradient(rgb(0,0,0) 65%, rgb(216, 127, 10));
+	overflow:hidden;
+
 }
 .vh100 {
 	height:100vh;
 }
 .inline {
 	display:inline-block;
+}
+hr {
+	margin:0.6em 0;
+	border-color: rgb(224, 138, 39);;
 }
 
 /*Estilos generales*/
@@ -73,9 +79,39 @@ body {
 #container-map {
 	height:40vh;
 	width:70%;
-	background-color: aqua;
+	background-color: rgb(124, 141, 141);
 }
 .spacing {
 	opacity: 0;
 	margin:0.5em 0;
+}
+.filters-content {
+	display:none;
+}
+.container-table {
+	background-color: rgba(93, 88, 97, 0.644); 
+	/* position:fixed; */
+}
+tbody tr td a {
+	color: rgb(224, 138, 39);
+}
+tbody tr td {
+	text-align: left;
+	text-indent: 1em;
+}
+#table_length, #table_filter, #table_paginate {
+	display:none;
+}
+.flex-gallery {
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+}
+/* .flex-gallery > a > img {
+	width: 100%;
+	height:100%;
+} */
+.thumbnail {
+	margin:0.5em;
+	height: min-content;
 }

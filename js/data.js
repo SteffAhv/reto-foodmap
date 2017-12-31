@@ -67,7 +67,7 @@ var data = {
         'name': 'Brosters Grill',
         'address': 'Canada Street Nro 3837-B',
         'about': 'You will find delicius food, come an visit us.',
-        'picture' : '../assets/img/fast5.jpg',
+        'picture' : '../assets/img/fast3.jpg',
       }
     }
 };

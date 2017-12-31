@@ -1,3 +1,4 @@
+// Inicializamos el document
 $(document).ready(function() {
 
   var filter = $('#table').DataTable();

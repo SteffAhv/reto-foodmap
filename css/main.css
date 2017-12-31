@@ -115,3 +115,10 @@ tbody tr td {
 	margin:0.5em;
 	height: min-content;
 }
+/* Estilos vista restaurants */
+#show-peruvians {
+	color: rgb(53, 48, 42);
+	font-weight: bold;
+	height:50vh;
+	background-color: rgb(221, 178, 113);
+  }

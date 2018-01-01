@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
 	var containerMap = document.getElementById('container-map');
-	navigator.geolocation.getCurrentPosition(succes, notSucces);
+	navigator.geolocation.getCurrentPosition(succes);
 
 	function succes(rta) {
 		var latitude = rta.coords.latitude;
@@ -18,9 +18,5 @@ window.addEventListener('load', function() {
 			title: ' Ud esta aqui:',
 		}
 		var googleMarker = new google.maps.Marker(objConfigMarker);
-	};
-	function notSucces() {
-		// var altMap = document.getElementById('map-display');
-		// altMap.classList.toggle('show-alt');
 	};
 });

@@ -79,7 +79,7 @@ body {
 #container-map {
 	height:40vh;
 	width:70%;
-	background-color: rgb(124, 141, 141);
+	background-color:grey;
 }
 .spacing {
 	opacity: 0;
@@ -114,13 +114,33 @@ tbody tr td {
 .thumbnail {
 	margin:0.5em;
 	height: min-content;
+	padding:0;
+	color: rgb(224, 138, 39);
+	font-weight: bold;
+	font-size: 1.5em;
+	cursor:pointer;
 }
+.thumbnail:hover {
+	text-decoration: none;
+}
+.thumbnail > span {
+	text-decoration: none;
+	color: #000;
+}
+.thumbnail > img {
+	opacity:0.5;
+}
+
 /* Estilos vista restaurants */
 #show-peruvians, #show-japaneses, #show-italians, #show-thai, #show-fast {
-	color: rgb(53, 48, 42);
+	color: rgb(202, 122, 25);
 	font-weight: bold;
+	font-size:1.8em;
 	height:auto;
-	background-color: rgba(221, 178, 113, 0.74);
 	margin:1em;
-	border-radius: 0.5em;
+}
+#show-peruvians img, #show-japaneses img, #show-italians img, #show-thai img, #show-fast img {
+	border:1px solid white;
+	border-radius: 1em;
+	margin-bottom:1.5em;
 }

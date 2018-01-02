@@ -12,7 +12,7 @@ Se desarrollo una Web-app mediante la cual filtramos restaurantes.
 
 En esta vista se muestra tu ubicacion actual, mediante el input se muestran los filtros.
 
-![image]https://github.com/SteffAhv/reto-foodmap/blob/master/assets/readmefood3.PNG?raw=true)
+![image](https://github.com/SteffAhv/reto-foodmap/blob/master/assets/readmefood3.PNG?raw=true)
 
 3. Vista Restaurants
 

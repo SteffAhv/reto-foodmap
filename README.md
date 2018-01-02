@@ -6,19 +6,19 @@ Se desarrollo una Web-app mediante la cual filtramos restaurantes.
 
 1. Vista Splash 
 
-![image](assets/img/readmefood.PNG)
+![image](https://github.com/SteffAhv/reto-foodmap/blob/master/assets/readmefood.PNG?raw=true)
 
 2. Vista Home 
 
 En esta vista se muestra tu ubicacion actual, mediante el input se muestran los filtros.
 
-![image](assets/img/readmefood2.PNG)
+![image]https://github.com/SteffAhv/reto-foodmap/blob/master/assets/readmefood3.PNG?raw=true)
 
 3. Vista Restaurants
 
 Una vez realizada tu elección, se muestran los restaurantes disponibles.
 
-![image](assets/img/readmefood2.PNG)
+![image](https://github.com/SteffAhv/reto-foodmap/blob/master/assets/readmefood4.PNG?raw=true)
 
 ### Herramientas Utilizadas
 
@@ -29,8 +29,8 @@ Una vez realizada tu elección, se muestran los restaurantes disponibles.
 - Google Maps API
 
 ### Fuentes Consultadas 
-- [dataTables](https://datatables.net/download/index)
-- [stackOverFlow](https://es.stackoverflow.com/)
-- [w3s](https://www.w3schools.com/)
+- https://datatables.net/download/
+- https://es.stackoverflow.com
+- https://www.w3schools.com/
 
 

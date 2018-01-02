@@ -20,12 +20,12 @@ $(document).ready(function() {
 
   var imgsDefault = $('.thumbnail');
 
-    $(imgsDefault).mouseover(function() {
-      $(this).css('background-color', 'grey');
-      $('.thumbnail img', this).css('opacity', '1');
-    });
-    $(imgsDefault).mouseout(function() {
-      $(this).css('background-color', 'white');
-      $('.thumbnail img', this).css('opacity','0.5');
-    });
+  $(imgsDefault).mouseover(function() {
+    $(this).css('background-color', 'grey');
+    $('.thumbnail img', this).css('opacity', '1');
   });
+  $(imgsDefault).mouseout(function () {
+    $(this).css('background-color', 'white');
+    $('.thumbnail img', this).css('opacity', '0.5');
+  });
+});

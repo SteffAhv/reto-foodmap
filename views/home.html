@@ -1,103 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	  <meta charset="UTF-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-	  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	  <link rel="stylesheet" href="../css/main.css">
-	  <title>Foodmap Home</title>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="../css/main.css">
+	<title>Foodmap Home</title>
 </head>
+
 <body>
 	<div class="bckg">
-	    <div class="container-fluid">
-		    <div class="row">
-				  <div class="col-xs-12">
-						<header class="header">
-							<nav><h2 class="inline">FOODMAP</h2> <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
-							</nav>
-							<hr>	
-						</header>
-				  </div>
-			 </div>
-			 <div class="row">
-				 <div class=" container col-xs-12">
-						<picture id="container-map"class="img-responsive center-block" ></picture>
-				 </div>
-			 </div>
-			 <div class="row">
-				 <div class="col-xs-12">
-						<h4>Food near you</h4>
-						<div class="input-group col-xs-8 col-xs-offset-2">
-								<input id="input-filter"type="search" class="form-control" placeholder="Find Restaurants ..." aria-describedby="basic-addon2">
-								<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
-							</div>
-				 </div>
-			 </div>
-			 <div class="row">
-				 <div class="col-xs-12">
-					 <div class="filters-content col-xs-8 col-xs-offset-2">
-						 <div class="container-table ">
-							 <table id="table">
-								 <thead>
-									 <tr>
-										 <td></td>
-									 </tr>
-								 </thead>
-								 <tbody>
-									 <tr>
-									   <td><a href="restaurants.html#show-peruvians">Peruvian Food</a></td>
-									 </tr>
-									 <tr>
-									   <td><a href="restaurants.html#show-japaneses">Japanese Food</a></td>
-									 </tr>
-									 <tr>
-									   <td><a href="restaurants.html#show-italians">Italian Food</a></td>
-									 </tr>
-									 <tr>
-									   <td><a href="restaurants.html#show-thai">Thai Food</a></td>
-									 </tr>
-									 <tr>
-									   <td><a id="anchore"href="restaurants.html#show-fast">Fast Food</a></td>
-									 </tr>
-								 </tbody>
-							 </table>
-						 </div>
-					 </div>
-				 </div>
-			 </div>
-			 <div class="row">
-					<div class="col-xs-12 col-md-12">
-						<div class="flex-gallery">
-							<div class="col-xs-12 col-md-4">
-								<a href="restaurants.html#show-japaneses" class="thumbnail">
-									<img class="img-responsive" src="../assets/img/japanese2.jpg" alt="food">
-									<span>Japanese Food</span>
-								</a>
-								<a href="restaurants.html#show-peruvians" class="thumbnail">
-										<img class="img-responsive" src="../assets/img/peruvian5.jpg" alt="food">
-										<span>Peruvian Food</span>
-								</a>
-								<a href="restaurants.html#show-thai" class="thumbnail">
-									<img class="img-responsive"src="../assets/img/thai3.jpg" alt="food">
-									<span>Thai Food</span>
-							</a>
-							</div>
-							<div class="col-xs-12 col-md-4">
-								<a href="restaurants.html#show-italians" class="thumbnail">
-										<img class="img-responsive"src="../assets/img/italian5.jpg" alt="food">
-										<span>Italian Food</span>
-								</a>
-								<a href="restaurants.html#show-fast" class="thumbnail">
-										<img class="img-responsive"src="../assets/img/fast3.jpg" alt="food">
-										<span>Fast Food</span>
-								</a>
-							</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<header class="header">
+						<nav>
+							<h2 class="inline">FOODMAP</h2>
+							<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+						</nav>
+						<hr>
+					</header>
+				</div>
+			</div>
+			<div class="row">
+				<div class=" container col-xs-12">
+					<picture id="container-map" class="img-responsive center-block"></picture>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<h4>Food near you !</h4>
+					<div class="input-group col-xs-8 col-xs-offset-2">
+						<input id="input-filter" type="search" class="form-control" placeholder="Find Restaurants ..." aria-describedby="basic-addon2">
+						<span class="input-group-addon" id="basic-addon2">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="filters-content col-xs-8 col-xs-offset-2">
+						<div class="container-table ">
+							<table id="table">
+								<thead>
+									<tr>
+										<td></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="restaurants.html#show-peruvians">Peruvian Food</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="restaurants.html#show-japaneses">Japanese Food</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="restaurants.html#show-italians">Italian Food</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="restaurants.html#show-thai">Thai Food</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a id="anchore" href="restaurants.html#show-fast">Fast Food</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
-			 </div>
-		 </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="flex-gallery">
+						<div class="col-xs-12 col-md-4">
+							<a href="restaurants.html#show-japaneses" class="thumbnail">
+								<img class="img-responsive" src="../assets/img/japanese2.jpg" alt="food">
+								<span>Japanese Food</span>
+							</a>
+							<a href="restaurants.html#show-peruvians" class="thumbnail">
+								<img class="img-responsive" src="../assets/img/peruvian5.jpg" alt="food">
+								<span>Peruvian Food</span>
+							</a>
+							<a href="restaurants.html#show-thai" class="thumbnail">
+								<img class="img-responsive" src="../assets/img/thai3.jpg" alt="food">
+								<span>Thai Food</span>
+							</a>
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<a href="restaurants.html#show-italians" class="thumbnail">
+								<img class="img-responsive" src="../assets/img/italian5.jpg" alt="food">
+								<span>Italian Food</span>
+							</a>
+							<a href="restaurants.html#show-fast" class="thumbnail">
+								<img class="img-responsive" src="../assets/img/fast3.jpg" alt="food">
+								<span>Fast Food</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script src="https://use.fontawesome.com/21b158d175.js"></script>
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
@@ -105,7 +121,7 @@
 	<script src="../js/home.js"></script>
 	<script src="../js/data.js"></script>
 	<script src="../js/filter.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxXQ1YigQn1YUubFOCCH-LcrIESgcL7Mo&callback=succes"
-	 async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxXQ1YigQn1YUubFOCCH-LcrIESgcL7Mo&callback=succes" async defer></script>
 </body>
+
 </html>
